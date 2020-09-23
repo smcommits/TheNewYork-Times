@@ -3,52 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>The New York Times</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <!-- Header Section -->
 
     <header id="top-bar">
-        <img src="#" id="menu-icon" alt="">
-        <img src="img/main-logo" alt="">
-        <img src="" alt="">
+        <section id="top-section">
+        <div>
+            <img src="svg-icons/svgexport-1.svg" id="menu-icon" alt="">
+            <img src="svg-icons/svgexport-2.svg" alt="">
+            <a href="">Space & Cosmos</a>
+        </div>        
+        <div><img id="main-logo" src="svg-icons/svgexport-3.svg" alt=""></div>        
+        <div>
+            <button type="submit" id="subscribe">Subscribe Now</button>
+            <button type="submit" id="login">Log In</button>
+        </div>
+        </section>
+
     </header>
 
-    <div>
-        <a id="suscribe-login" href="">Subscribe Now</a>
-        <a id="suscribe-login" href="">Log In</a>
-    </div>
-
+    
     <div id="title-container">
         <div>
             <h1 id="main-title">Space Ripples Reveal Big Bang’s Smoking Gun</h1>
         </div>
 
-        <div><img id="title-imag" src="" alt=""></div>
-        <div>
-            <p id="title-description"></p>
+        <figure>
+            <img id="title-imag" src="img/1 - 18cosmos-superJumbo.jpg" alt="">        
+            <figcaption>
+             Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
+            </figcaption>
+        </figure>
+    </div>
+
+        
+    <div>
+        <span id="author"><a>By Dennis Overbye</a></span>
+        <div id="date-and-icon">
+            <span><p id="date">March 17, 2014</p></span>
+            <div id="icons-title">
+                <img src="svg-icons/svgexport-7.svg" alt="">
+                <img src="svg-icons/svgexport-14.svg" alt="">
+                <img src="svg-icons/svgexport-15.svg" alt="">
+                <img src="svg-icons/svgexport-16.svg" alt="">
+                <img src="svg-icons/svgexport-11.svg" alt="">
+                <img src="" alt="">
+            </div>
         </div>
         
-        <div>
-            <span id="author"><p></p></span>
-            <div id="date-icon">
-                <span><p id="date"></p></span>
-                <div id="icons-title">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </div>
-            </div>
-            
-        </div>
-    <div>
+    </div>
+
 
 
         <!-- Article -->
 
     <article>
-        <p class="main-article"></p>
+        <p class="main-article">CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.</p>
         <p class="main-article"></p>
         <p class="main-article"></p>
         <p class="main-article"></p>
@@ -65,21 +78,40 @@
         <p class="main-article"></p>
     
         <section id="main-theory">
-            <h2>The Theory </h2>
+            <div>
+                <h2>The Theory of Inflation</h2>
+                <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
+            </div>            
             <div class="theory-container">
-                <img src="" alt="" >
+                <img src="img/inflation-945.png" alt="" >
                 <div class="img-descriptions">
-                    <p class="description"></p>
-                    <p class="description"></p>
-                    <p class="description"></p>
-                    <p class="description"></p>
-                    <p class="description"></p>
-                    <p class="description"></p>
-                    <p class="description"></p>
-                    <p class="description"></p>
+                    <p class="description">
+                        THE UNIVERSE  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
+                    </p>
+                    <p class="description">
+                        NOT ENOUGH TIME  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
+                    </p>
+                    <p class="description">
+                        DISTANT COFFEE  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled. 
+                    </p>
+                    <p class="description">
+                        COFFEE EVERYWHERE  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.
+                    </p>
+                    <p class="description">
+                        STILL NOT ENOUGH TIME  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
+                    </p>
+                    <p class="description">
+                        INFLATION  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
+                    </p>
+                    <p class="description">
+                        FLUCTUATION  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein. 
+                    </p>
+                    <p class="description">
+                        EXPANSION  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot. 
+                    </p>
                 </div>
             </div>
-            <p class="author-detail"></p>
+            <p class="author-detail">By LARRY BUCHANAN and JONATHAN CORUM</p>
         </section>
 
         <p class="main-article"></p>
@@ -117,20 +149,54 @@
 
     <!--  Space Section with Aside Tag -->
 
-    <section class="space-section">
+    <section class="more-articles">
         
-        <div class="space-details">
-            <figure>
-                <img src="#" alt="">
-                <figcaption></figcaption>              
-                <img src="#" alt="">
-                
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
+        <div class="more-details">
+            <figure class="more-articles-images">
+                <img src="img/3 - 19SCI-OUTTHERE-VENUS1-threeByTwoSmallAt2X.jpg" alt="">
+                <figcaption>On Venus, Cloudy With a Chance of Microbial Life</figcaption>
             </figure>
-            
+            <figure class="more-articles-images">
+                <img src="img/6 - 15SCI-ROCKETLAB1-threeByTwoSmallAt2X.jpg" alt="">
+                <figcaption>Mount Wilson Observatory Survives a Trial by Fire</figcaption>
+
+            </figure>
+            <figure class="more-articles-images">
+                <img src="img/7 - 12TB-SKYDISC1-threeByTwoSmallAt2X.jpg" alt="">
+                <figcaption>Life on Venus? Astronomers See a Signal in Its Clouds</figcaption>
+
+            </figure>
+            <figure class="more-articles-images">
+                <img src="img/5 - 14SCI-VENUS1-alt-threeByTwoSmallAt2X.jpg" alt="">
+                <figcaption>Life on Venus? Astronomers See a Signal in Its Clouds</figcaption>
+
+            </figure>
+            <figure class="more-articles-images">
+                <img src="img/4 - 18SCI-OUTTHERE-MTWILSON-threeByTwoSmallAt2X-v2.jpg " alt="">
+                <figcaption>How Old Is This Ancient Vision of the Stars?</figcaption>
+
+            </figure>
+            <figure class="more-articles-images">
+                <img src="img/5 - 14SCI-VENUS1-alt-threeByTwoSmallAt2X.jpg" alt="">
+                <figcaption>The Search for Life on Venus Could Start With This Private Company</figcaption>
+
+            </figure>
+            <div class="editor-pick">
+                <figure class="more-articles-images">
+                    <img src="img/8 - 22kloots-1-threeByTwoSmallAt2X.jpg" alt="">
+                    <figcaption>‘He Never Quit’: Nick Cordero’s Widow on Grief, God and Perseverance</figcaption>
+                </figure>
+                <figure class="more-articles-images">
+                    <img src="img/10 - 00virus-parents-1-threeByTwoSmallAt2X.jpg" alt="">
+                    <figcaption>With Kids in Sports Bubbles, These Parents Are Desperate for a Way In</figcaption>
+
+                </figure>
+                <figure class="more-articles-images">
+                    <img src="img/8 - 22kloots-1-threeByTwoSmallAt2X.jpg" alt="">
+                    <figcaption>Florida Was Nice, but This Couple Was Ready to Come Home to New York</figcaption>
+
+                </figure>
+            </div>
            
         </div>
         
@@ -143,25 +209,114 @@
 
     <footer class="main-footer">
 
-        <div class="footer-list">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <div class="footer-copyright">
-                <p class="main-copyright"></p>
-                <p class="links">
-
-                </p>
+        <div class="footer-navigation">
+            <div><img id="footer-logo" src="svg-icons/svgexport-6.svg" alt=""></div>
+            <div class="footer-nav-list">
+                <a href="">News</a>
+                <a href="">Home-Page</a>
+                <a href="">World</a>
+                <a href="">Us</a>
+                <a href="">Politics</a>
+                <a href="">Election</a>
+                <a href="">New York</a>
+                <a href="">Business</a>
+                <a href="">Tech</a>
+                <a href="">Science</a>
+                <a href="">Sports</a>
+                <a href="">Obituaries</a>
+                <a href="">Today's Paper</a>
+                <a href="">Corrections</a>
             </div>
+            <a href="">
+                <a href="">Today's Opinion</a>
+                <a href="">Op-Ed Columnists</a>
+                <a href="">Editorials</a>
+                <a href="">Op-Ed Contributors</a>
+                <a href="">Letters</a>
+                <a href="">Sunday Review</a>
+                <a href="">Video: Opinion</p>
+                </a>
+            <div class="footer-nav-list">
+                <a href="">Today's Arts</a>
+                <a href="">Art & Design</a>
+                <a href="">Books</a>
+                <a href="">Dance</a>
+                <a href="">Movies</a>
+                <a href="">Music</a>
+                <a href="">Pop Culture</a>
+                <a href="">Television</a>
+                <a href="">Theater</a>
+                <a href="">Video: Arts</a>           
+            </div>
+            <div class="footer-nav-list">
+                <a href="">At Home</a>
+                <a href="">Automobiles</a>
+                <a href="">Games</a>
+                <a href="">Education</a>
+                <a href="">Food</a>
+                <a href="">Health</a>
+                <a href="">Jobs</a>
+                <a href="">Love</a>
+                <a href="">Magazine</a>
+                <a href="">Parenting</a>
+                <a href="">Real Estate</a>
+                <a href="">Recipes</a>
+                <a href="">Style</a>
+                <a href="">T Magazine</a>
+                <a href="">Travel</a>           
+            </div>
+            <div class="footer-nav-list">
+                <a href="">Reader Center</a>
+                <a href="">Wirecutter</a>
+                <a href="">Live Events</a>
+                <a href="">The Learning Network</a>
+                <a href="">Tools & Services</a>
+                <a href="">Multimedia</a>
+                <a href="">Photography</a>
+                <a href="">Video</a>
+                <a href="">Newsletters</a>
+                <a href="">TimesMachine</a>
+                <a href="">NYT Store</a>
+                <a href="">Times Journeys</a>
+                <a href="">Manage My Account</a>            
+            </div>
+            <div class="footer-nav-list">
+                <p class="p-bold">Subscribe</p>
+                <a class="bold-links" href=""><img src="svg-icons/svgexport-21.svg" alt=""> Home Delivery</a>
+                <a class="bold-links" href=""><img src="svg-icons/svgexport-21.svg" alt=""> Digital Subscription</a>
+                <a class="bold-links" href=""><img src="svg-icons/svgexport-22.svg" alt=""> Games</a>
+                <a class="bold-links" href=""><img src="svg-icons/svgexport-23.svg" alt=""> Cooking </a>
+            </div>
+
+            <div>
+                <a href="">Email Newsletters</a>
+                <a href="">Corporate Subscriptions</a>
+                <a href="">Education Rate</a>
+                <a href="">Mobile Applications</a>
+                <a href="">Replica Edition</a>
+                <a href="">Español</a>
+                <a href="">中文网</a>
+            </div>        
+        
+         <div class="footer-copyright">
+                <a href="">2020 The New York Times Company</a>
+                <a href="">NYTCo</a>
+                <a href="">Contact Us </a>
+                <a href="">Work with us</a>
+                <a href="">Advertise</a>
+                <a href="">T Brand Studio</a>
+                <a href="">Your Ad Choices</a>
+                <a href="">Privacy</a>
+                <a href="">Terms of Service</a>
+                <a href="">Terms of Sale</a>
+                <a href="">Site Map</a>
+                <a href="">Help</a>
+                <a href="">Subscriptions</a>   
+        </div>
         </div>
 
         <div class="fixed">
-            <p class="footer-desctiption"></p>
+            <p id="footer-desctiption">Access more of the Times by cresting a free account or logging in</p>
             <i></i>
         </div>
     </footer>
