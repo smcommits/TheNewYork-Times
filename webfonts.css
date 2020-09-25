@@ -98,4 +98,12 @@
   font-display: swap;
 }
 
-
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('./fonts/cheltenham-normal-500.a22ae3ed1e775ce90ced16f1822f4ddc.woff2') format('woff2'),
+       url('./fonts/cheltenham-normal-500.229eebd8069abe2c2253b203c9179e25.woff') format('woff'),
+       url('./fonts/cheltenham-normal-500.fe8ceaea50c19a1dfffe1bbfa15e283e.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}

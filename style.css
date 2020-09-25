@@ -445,33 +445,126 @@ article {
   width: 100%;
 }
 
-.more-articles{
+.suggestions{
     max-width:1200px;
     margin: 0 auto;
-}
-
-.first-three{
-    max-width: 852px;
+    margin-top: 65px;
     display: flex;
 }
 
+.more-articles{
+    width: 852px;
+    max-width: 852px;
+}
 
+.suggestions-header{
+    border-top: 1px solid rgb(0, 0, 0);
+    padding-top: 17px;
+}
+
+.lower{
+    margin-top: 20px;
+
+}
+.first-three{
+    max-width: 852px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 75px;
+    padding-top: 15px;
+}
+.other-three{
+    max-width: 852px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 26px;
+    padding-top: 15px;
+}
+
+.suggestions figcaption{
+    margin-top: 24px;
+}
 .more-articles-images{
-    width: 239px;
-    height: 152px;
+    margin: 0;
 }
 
+.suggestions-header a{
+	font-size: 1rem;
+	line-height: 1.375rem;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: 700;
+    text-decoration: none;
+    color: #333;
+}
 .more-articles-images img{
-    object-fit: contain;
     width: 100%;
-    height: 80%;
+
+}
+.more-articles figcaption{
+	font-size: 1.125rem;
+	line-height: 1.375rem;
+    color: rgb(51, 51, 51);
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-weight: 500;
+	padding-right: 1rem;
+}
+.right-section{
+    width: 318px;
+    margin-left: 30px;
+}
+
+.right-section h2{
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    margin: 0;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.375rem;
+	border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 17px 0 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+
 }
 
 
-/* .first-six img{ */
-    /* width: 273px; */
-    /* height: 182px; */
-/* } */
+.right-section a{
+	color: rgb(18, 18, 18);
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-weight: 500;
+	font-size: 1.1875rem;
+	line-height: 1.4375rem;
+}
+
+.right-section h1{
+	border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 .main-footer::before{
@@ -481,7 +574,7 @@ article {
 	content: '';
 	display: block;
 	height: 1px;
-	margin-top: 0;
+	margin-top: 86px;
 }
 .main-footer{
     width:1200px;
