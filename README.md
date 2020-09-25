@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# SignUp Page
+# The New York Times 
 
-> This project contains a clone of mint.com's signup page.
+> This project contains a clone of NY times article page.
 
 ![screenshot](./project-screenshot.png)
 
@@ -12,8 +12,7 @@
 - HTML
 Designed in Semantic HTML style.
 
--CSS
-Heavy use of Flexbox
+-CSS Heavy use of Flexbox, Float and Grid Layout.
 
 ## Live Demo
 
