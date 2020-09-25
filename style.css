@@ -160,14 +160,14 @@ header {
   line-height: 1rem;
 }
 
-#icons-title {
+.icons-title {
   display: flex;
   width: 242px;
   justify-content: space-between;
   align-items: center;
 }
 
-#icons-title span {
+.icons-title span {
   width: 15px;
   height: 15px;
   background: #eee;
