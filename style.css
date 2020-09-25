@@ -201,7 +201,7 @@ article {
 #editors-pick div {
   display: flex;
 }
-#editors-pick h1 {
+#editors-pick h2 {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
